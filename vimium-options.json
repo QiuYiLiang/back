@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.67.2",
+  "exclusionRules": [
+    {
+      "pattern": "https?://github.dev/*",
+      "passKeys": "*"
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "map w removeTab\nmap a createTab\nmap r reload\nmap s focusInput\nmap t LinkHints.activateMode\nmap m scrollToTop\nmap n previousTab\nmap o nextTab\nmap e scrollPageDown\nmap i scrollPageUp\nmap K scrollToBottom\nmap N goBack\nmap E scrollDown\nmap I scrollUp\nmap O goForward\nmap d Vomnibar.activateInNewTab\nmap D Vomnibar.activateTabSelection",
+  "linkHintCharacters": "arstdkneoi",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "c: http://caniuse.com/#search=%s caniuse\ng: https://github.com/search?q=%s&ref=opensearch Github\nn: https://www.npmjs.com/search?q=%s NPM\ns: https://stackoverflow.com/search?q=%s Stack Overflow\nt: https://translate.google.cn/?sl=auto&tl=en&text=%s&op=translate Translate\ny: https://www.youtube.com/results?search_query=%s Youtube\nz: https://b-ok.cc/s/?q=%s Z-Library\ni: https://search.bilibili.com/all?keyword=%s 哔哩哔哩",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

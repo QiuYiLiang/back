@@ -1,0 +1,30 @@
+keycode 26 =  f F f F
+keycode 27 =  p P p P
+keycode 28 =  b B b B
+keycode 29 =  j J j J
+keycode 30 =  l L l L
+keycode 31 =  u U u U
+keycode 32 =  y Y y Y
+keycode 33 =  semicolon colon odiaeresis Odiaeresis
+keycode 39 =  r R r R
+keycode 40 =  s S s S
+keycode 41 =  t T t T
+keycode 42 =  g G g G
+keycode 43 =  m M m M
+keycode 44 =  n N n N
+keycode 45 =  e E e E
+keycode 46 =  i I i I
+keycode 47 =  o O o O
+keycode 55 =  d D d D
+keycode 56 =  v V v V
+keycode 57 =  k K k K
+keycode 58 =  h H h H
+
+clear lock
+clear control
+keycode 66 = Control_L
+add control = Control_L Control_R
+keycode  22 = backslash bar backslash bar
+keycode  51 = BackSpace BackSpace BackSpace BackSpace
+keycode  49 = Escape NoSymbol Escape
+keycode  9  = grave asciitilde grave asciitilde
